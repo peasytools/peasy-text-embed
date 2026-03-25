@@ -187,17 +187,19 @@ Display a compact inline badge showing a format type or tool category.
 
 ### Interactive Tool
 
-Embed a full interactive tool via iframe with complete isolation.
+Embed a full interactive tool via iframe. Use the `data-slug` attribute with the format `category/tool-name`.
 
 ```html
 <!-- Embed an interactive PeasyText tool -->
 <div data-peasy-text="interactive"
-  data-url="https://peasytext.com/embed/word-counter/"
-  data-height="500px"
+  data-slug="text/example-tool"
+  data-height="500"
   data-theme="light">
 </div>
 <script src="https://cdn.jsdelivr.net/npm/peasy-text-embed@1/dist/embed.min.js"></script>
 ```
+
+> **Note:** The `data-slug` value uses the format `category-slug/tool-slug`. Find available tools at [peasytext.com/api/v1/tools/](https://peasytext.com/api/v1/tools/).
 
 ### Glossary Tooltip
 
