@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# PeasyText Embed Widget
+# Main site: https://peasytext.com
+# Widget docs: https://widget.peasytext.com
+# npm: https://www.npmjs.com/package/peasy-text-embed
